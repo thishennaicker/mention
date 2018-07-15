@@ -61,7 +61,7 @@ const mention = (config) => {
     const li = (people) =>
     `<li class="${peopleClass}" data-username="${people.username}">
         <img src=${people.image}>
-        <div>${people.name} @${people.username}</div>
+        <div>${people.name}</div>
         <div>@${people.username}</div>		
     </li>`;
 
