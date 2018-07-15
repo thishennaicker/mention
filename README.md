@@ -2,7 +2,7 @@
 @ mention/tag plugin written in pure ES6 javascript.
 Minified JS: 2,32 KB.
 
-[View demo on JS Fiddle](https://jsfiddle.net/nthishen/6ebspa2j/1/) 
+[View demo on JS Fiddle](https://jsfiddle.net/nthishen/6ebspa2j/9/) 
 
 # Quick Start
 ```
