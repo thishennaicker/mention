@@ -1,4 +1,4 @@
-# mention
+# Vanilla Mention
 @ mention/tag plugin written in pure ES6 javascript
 
 # Quick Start
