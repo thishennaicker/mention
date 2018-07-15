@@ -2,7 +2,7 @@
 @mention plugin written in pure ES6 javascript.  
 Minified JS: 2,31 KB. No dependencies.
 
-[View demo on JS Fiddle](https://jsfiddle.net/nthishen/6ebspa2j/9/) 
+[Give it a try on JS Fiddle](https://jsfiddle.net/nthishen/6ebspa2j/9/) 
 
 # Quick Start
 ```
