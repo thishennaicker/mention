@@ -1,10 +1,8 @@
 const mention = (config) => {
-
-	init(config);
+  init(config);
   
   let startAt = -1;
   let mentionSize = 0;
-
   const lookupClass = 'mention-lookup-nt'
   const peopleClass = 'mention-li-nt'
 
@@ -22,10 +20,8 @@ const mention = (config) => {
     	config.symbol = '@';
     }
 
-    document.getElementById(config.id)
-    	.addEventListener('keyup', e => mentionEvent(e))
-    document.getElementById(config.id)
-    	.addEventListener('click', e => hideLookup())
+    document.getElementById(config.id).addEventListener('keyup', e => mentionEvent(e))
+    document.getElementById(config.id).addEventListener('click', e => hideLookup())
   }
 
   function mentionEvent (e) {
@@ -149,8 +145,7 @@ const mention = (config) => {
   }
 
   function insertNameIntoInput(e, textArea){
-    let element = e.target.className === peopleClass ?
-                    e.target : e.target.parentElement;
+    let element = e.target.className === peopleClass ? e.target : e.target.parentElement;
     const first = textArea.value.substr(0, startAt);
     const last = textArea.value.substr(startAt + mentionSize, textArea.value.length);
     const content = `${first}${element.dataset.username}${last}`;
