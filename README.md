@@ -1,6 +1,6 @@
 # Vanilla Mention
-@ mention/tag plugin written in pure ES6 javascript.
-Minified JS: 2,32 KB.
+@ mention/tag plugin written in pure ES6 javascript.  
+Minified JS: 2,32 KB. No dependencies.
 
 [View demo on JS Fiddle](https://jsfiddle.net/nthishen/6ebspa2j/9/) 
 
