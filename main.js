@@ -7,16 +7,15 @@ const mention = (config) => {
   const peopleClass = 'mention-li-nt'
 
   function init(config){
-    if (config === undefined || config === null){
+    if (config === undefined){
       error();
       return;
     }
-    if (config.id === undefined || config.id === null ||
-        config.people === undefined || config.people === null){
+    if (config.id === undefined || config.people === undefined){
         error();
         return;
     }
-    if (config.symbol === undefined || config.symbol === null) {
+    if (config.symbol === undefined) {
     	config.symbol = '@';
     }
 
