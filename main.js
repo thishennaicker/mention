@@ -88,8 +88,21 @@ const mention = (config) => {
 
     let span = document.createElement('span');
     replica.appendChild(span); 
+    
     let content = textArea.value.substr(0, textArea.selectionStart);
-    span.innerHTML = content.replace(/\n$/, "\n\001");
+    let contentLines = content.split(/[\n\r]/g);
+    let currentline = content.substr(0, content.selectionStart).split(/[\n\r]/g).length;
+    
+    let replicaContent = ''   
+    contentLines.map((l, i)=> {
+    	if (i === (currentline - 1) && i < contentLines.length){
+      	replicaContent += contentLines[i];
+        return;
+      }
+      replicaContent += '\n'
+    });
+    
+    span.innerHTML = replicaContent.replace(/\n$/, "\n\001");
 
     document.body.appendChild(replica);
 
