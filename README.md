@@ -1,5 +1,5 @@
 # @Mention
-Mention plugin written in pure ES6 javascript.  
+Mention plugin written in ES6 javascript.  
 Minified JS: 2,4 KB. No dependencies.
 
 [Give it a try on JS Fiddle](https://jsfiddle.net/nthishen/6ebspa2j/9/) 
