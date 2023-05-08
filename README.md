@@ -1,4 +1,4 @@
-# @Mention
+# @mention
 Mention plugin written in ES6 javascript.  
 Minified JS: 2,4 KB. No dependencies.
 
